@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+$color-cyan : #9bbcd3;
+$input-bg: #B2B9BF;
+html, body{
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+.w-100{width: 100%;}
+.d-block{display: block;}
+.mb-5{
+  margin-bottom: 5px;
+}
+.mb-10{
+  margin-bottom: 10px;
+}
+.input-component{
+
+}
+.input{
+  background-color: $input-bg;
+  padding: 10px 14px;
+  border: none;
+}
+// .text-input{
+
+// }
+// .select-input{
+// }
+.form-center{
+  background-color: $color-cyan;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

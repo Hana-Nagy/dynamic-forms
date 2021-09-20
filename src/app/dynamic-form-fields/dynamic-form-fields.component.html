@@ -1,0 +1,15 @@
+<div [formGroup]="form" class="main-form">
+  <label [attr.for]="field.key" class="mb-5 d-block">{{field.label}}</label>
+
+  <div [ngSwitch]="field.controlType" class="input-component mb-10">
+    <input class="input text-input" *ngSwitchCase="'textbox'" placeholder="{{field.placeHolder}}"  [value]="field.value"  [id]="field.key"
+      [type]="field.type">
+
+    <select class="input select-input w-100" *ngSwitchCase="'dropdown'"   >
+      <option *ngFor="let item of field.options" [value]="item.value">{{item.value}}</option>
+    </select>
+  </div>
+
+
+</div>
+

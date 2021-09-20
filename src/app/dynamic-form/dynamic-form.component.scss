@@ -1,0 +1,22 @@
+.form{
+  background: white;
+  position: relative;
+  padding: 30px;
+  -webkit-box-shadow: 1px 1px 20px 3px rgb(37, 110, 155);
+  -moz-box-shadow:    1px 1px 20px 3px rgb(37, 110, 155);
+  box-shadow:         1px 1px 20px 3px rgb(37, 110, 155);
+}
+.form-title{
+  text-align: center;
+  position: absolute;
+  top: -22px;
+  right: 0px;
+  left: 0px;
+}
+.form-title h4{
+  margin: 0px;
+  padding: 10px 25px;
+  background-color: #B2B9BF;
+  color: #ffffff;
+  display: inline-block
+}
